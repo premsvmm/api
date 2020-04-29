@@ -1,7 +1,7 @@
 package tests
 
 import (
-	"github.com/premsvmm/Webinar/controllers"
+	"github.com/premsvmm/goapi/controllers"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

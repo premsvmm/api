@@ -1,15 +1,15 @@
 apiVersion: networking.k8s.io/v1beta1 # for versions before 1.14 use extensions/v1beta1
 kind: Ingress
 metadata:
-  name: webinar
+  name: goapi
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
-    - host: webinar.com
+    - host: goapi.com
       http:
         paths:
           - backend:
-              serviceName: webinar
+              serviceName: goapi
               servicePort: 8080
             path: /

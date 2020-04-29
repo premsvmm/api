@@ -1,4 +1,4 @@
-# Webinar
+# goapi
 
 _Session for app development and its process_
 

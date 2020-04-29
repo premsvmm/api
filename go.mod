@@ -1,4 +1,4 @@
-module github.com/premsvmm/Webinar
+module github.com/premsvmm/goapi
 
 go 1.13
 

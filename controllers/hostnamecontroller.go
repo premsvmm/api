@@ -2,7 +2,7 @@ package controllers
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/premsvmm/Webinar/model/hostname"
+	"github.com/premsvmm/goapi/model/hostname"
 	"net/http"
 )
 

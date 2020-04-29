@@ -1,7 +1,7 @@
 package tests
 
 import (
-	"github.com/premsvmm/Webinar/app"
+	"github.com/premsvmm/goapi/app"
 	"github.com/stretchr/testify/assert"
 	"net/http"
 	"net/http/httptest"
