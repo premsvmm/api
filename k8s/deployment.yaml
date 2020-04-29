@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: webinar
+  name: webinar
+  namespace: default
+spec:
+  selector:
+    matchLabels:
+      app: webinar
+  template:
+    metadata:
+      labels:
+        app: webinar
+    spec:
+      containers:
+      - image: premsvmm/webinar:1982d6429757133eb8c8f938dbdc1b64395fc78e
+        imagePullPolicy: IfNotPresent
+        name: webinar
+        resources: {}
+        terminationMessagePath: /dev/termination-log
+        terminationMessagePolicy: File
+      dnsPolicy: ClusterFirst
+      restartPolicy: Always
+      schedulerName: default-scheduler
+      securityContext: {}
+      terminationGracePeriodSeconds: 30
