@@ -15,7 +15,7 @@ spec:
         app: goapi
     spec:
       containers:
-      - image: premsvmm/goapi:1982d6429757133eb8c8f938dbdc1b64395fc78e
+      - image: premsvmm/goapi:a84eec01e1a1c7172de510f89848f14ae23418c0
         imagePullPolicy: IfNotPresent
         name: goapi
         resources: {}
