@@ -10,10 +10,10 @@ var (
 )
 
 func StartApplication() {
-	Router.Use(cors.Default())
-	routes()
+	Router.Use(cors.Default()) // frontend application ot allow cros
 	webRoutes()
 	Router.LoadHTMLGlob("templates/*")
+	routes()
 	Router.Run(":8080")
 }
 
