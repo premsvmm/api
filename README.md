@@ -33,6 +33,7 @@ Building a backend application and uses of micro service architecture.
  * [Report portal](https://reportportal.io/)
  * [Sonarqube](https://www.sonarqube.org/)
  * [k6](https://k6.io/)
+ * [Postman](https://www.postman.com/)
 
 
 ### Tech
@@ -72,6 +73,7 @@ Building a backend application and uses of micro service architecture.
  * [Promethus](https://prometheus.io/docs/practices/alerting/)
  * [Grafana](https://grafana.com/)
  * [Teraform](https://www.terraform.io/)
+ * [Pager duty](https://www.pagerduty.com/)
  
 
 ### what next after rest api?
