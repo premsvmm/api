@@ -2,7 +2,7 @@
 
 _Session for app development and its process_
 
-[![CircleCI](https://circleci.com/gh/premsvmm/Webinar.svg?style=svg)](https://app.circleci.com/pipelines/github/premsvmm/Webinar)
+[![CircleCI](https://circleci.com/gh/premsvmm/goapi.svg?style=svg)](https://app.circleci.com/pipelines/github/premsvmm/goapi)
 
 ### what are we going to discuss today?
  * Rest API
