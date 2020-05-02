@@ -7,6 +7,7 @@ import (
 func routes() {
 	Router.GET("", controllers.Welcome)
 	Router.GET("/hostname", controllers.Hostname)
+	Router.POST("/add",controllers.Addition)
 }
 
 func webRoutes(){
