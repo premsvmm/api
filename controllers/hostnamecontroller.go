@@ -7,6 +7,7 @@ import (
 )
 
 func Hostname(c *gin.Context) {
+	REQUEST_COUNT.Inc()
 	res := hostname.GetHostname()
 	c.JSON(http.StatusOK, res)
 }

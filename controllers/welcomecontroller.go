@@ -6,5 +6,6 @@ import (
 )
 
 func Welcome(c *gin.Context){
+	REQUEST_COUNT.Inc()
 	c.String(http.StatusOK,"welcome Prem")
 }

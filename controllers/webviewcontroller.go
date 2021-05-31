@@ -7,5 +7,6 @@ import (
 )
 
 func Webview(c *gin.Context)  {
+	REQUEST_COUNT.Inc()
 	c.HTML(http.StatusOK,"index.html",gin.H{"hostname":hostname.Get()})
 }
