@@ -37,7 +37,7 @@ jobs:
           name: Set Environment Variables
           command: |
             echo 'export TAG=${CIRCLE_SHA1}' >> $BASH_ENV
-            echo 'export IMAGE_NAME="goapi"' >> $BASH_ENV
+            echo 'export IMAGE_NAME=$(echo ${CIRCLE_PROJECT_REPONAME}|tr '[:upper:]' '[:lower:]')' >> $BASH_ENV
             echo 'export DOCKER_ID=${CIRCLE_USERNAME}'>> $BASH_ENV
             echo "Env Variable is set"
 
